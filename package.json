@@ -1,0 +1,12 @@
+{
+  "name": "itbox",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.2.1",
+    "@wdio/cli": "^9.4.1",
+    "edgedriver": "^6.1.1",
+    "ssh2": "^1.16.0",
+    "typescript": "^5.7.2",
+    "wait-port": "^1.1.0"
+  }
+}
