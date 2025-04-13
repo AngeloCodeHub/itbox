@@ -51,6 +51,7 @@ Backup Server
 Active Directory Domain Service（Domain Controller）
 
 Server Applications
+WireShark+NPCap
 WP-Cli+WordPress
 Node.JS
 Bun
