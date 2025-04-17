@@ -22,39 +22,43 @@ C槽D槽各一份
 
 帳號密碼與資料或店家變數另創建一個json儲存
 
-全新伺服器與商業機安裝設定檔
-
 備份項目與策略
-ROS設定檔
-櫃台程式與資料庫
-Switch設定檔
-wifi設定檔
-官方網站（WordPress）
-Apache server設定檔
-mysql server設定檔
-mysql 資料庫
-Windows server系統
-D槽storage檔案
-PRTG Server
+  網路設備
+    RouterOS、Switch、Wifi
+  櫃台程式與資料庫
+  WordPress
+  WAMP server
+    MySQL：DataBase、INI
+    Apache：Conf、憑證
+    PHP：INI
+    phpmyadmin conf
+  Windows server
+    Firewall、SSH
+    排程、維護Script
+  PRTG Server
+  D槽storage檔案
 
 伺服器主機角色與功能
-DFS Server
-DNS Server
-Web Server
-App Server
-MySQL Server
-PRTG Core Server
-SSH Server
-File Server
-NTP Server
-Backup Server
-Active Directory Domain Service（Domain Controller）
+  DFS Server
+  DNS Server
+  WAMP Server
+  PRTG Server
+  App Server
+  WAMP Server
+  PRTG Core Server
+  SSH Server
+  File Server
+  NTP Server
+  Backup Server
+  RDP Server
+  Active Directory Domain Service（Domain Controller）
 
 Server Applications
-WireShark+NPCap
-WP-Cli+WordPress
-Node.JS
-Bun
-Git
+  Powershell latest
+  WireShark+NPCap
+  WP-Cli+WordPress
+  Node.JS
+  Bun
+  Git
 
 PRTG監控項目
