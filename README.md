@@ -11,8 +11,6 @@ ProjectTools：
 Git、GitHub、WinScp、Putty、node ssh2、openssh、Keepass Save
 VSCODE
 
-目標面向：網管工程師
-
 網管工具的融合與使用與開發
 結合所有遠端連線必要工具與網管知識
 以IT維運人員所作的工具
@@ -60,5 +58,6 @@ Server Applications
   Node.JS
   Bun
   Git
+  NSSM
 
 PRTG監控項目
