@@ -2,11 +2,13 @@
   "name": "itbox",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "^1.2.1",
+    "@types/bun": "^1.2.10",
+    "@types/ssh2": "^1.15.5",
     "@wdio/cli": "^9.4.1",
     "edgedriver": "^6.1.1",
-    "ssh2": "^1.16.0",
-    "typescript": "^5.7.2",
+    "node-ssh": "^13.2.1",
+    "typescript": "^5.8.3",
     "wait-port": "^1.1.0"
-  }
+  },
+  "dependencies": {}
 }
