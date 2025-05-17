@@ -10,6 +10,7 @@
         "@wdio/cli": "^9.4.1",
         "edgedriver": "^6.1.1",
         "node-ssh": "^13.2.1",
+        "ssh2": "^1.16.0",
         "typescript": "^5.8.3",
         "wait-port": "^1.1.0",
       },
