@@ -5,7 +5,7 @@
     "push": "bun run push"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.12",
+    "@types/bun": "^1.2.14",
     "@types/google-apps-script": "^1.0.97",
     "@types/ssh2": "^1.15.5",
     "@wdio/cli": "^9.4.1",

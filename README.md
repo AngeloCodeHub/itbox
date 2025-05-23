@@ -38,14 +38,13 @@ C槽D槽各一份
 
 伺服器主機角色與功能
   DFS Server
+  File Server
   DNS Server
   WAMP Server
-  PRTG Server
+  VSCSI Server
   App Server
-  WAMP Server
   PRTG Core Server
   SSH Server
-  File Server
   NTP Server
   Backup Server
   RDP Server
@@ -55,8 +54,8 @@ Server Applications
   Powershell latest
   WireShark+NPCap
   WP-Cli+WordPress
-  Node.JS
-  Bun
+  Node.JS，Bun
+  Python  
   Git
   NSSM
 

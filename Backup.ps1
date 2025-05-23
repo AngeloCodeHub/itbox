@@ -5,6 +5,6 @@ reg export $puttyRegPath $puttyRegBackupPath /y
 
 $jsonObj = (Get-Content -Path "Confidential\env.json") | ConvertFrom-Json
 $BackupDst = $jsonObj[0].DestDir + "Confidential\" `
-  + (Get-Date -Format "yyyyMMddHH") + ".zip"
+  + (Get-Date -Format "ITBox-yyyyMMddHH") + ".zip"
 # Write-Host $BackupDst
 Compress-Archive -Path ".\Confidential" -DestinationPath $BackupDst -Force
