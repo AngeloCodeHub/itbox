@@ -1,9 +1,9 @@
 
-$Myenv = (Get-Content -Path ".\env.json") | ConvertFrom-Json
-$MySQLexe = $Myenv[2].MySQL + "mysql.exe"
-$MyINI_Feng = ".\Confidential\MyINI\Feng.ini"
+$Myenv = (Get-Content -Path ".\Confidential\env.json") | ConvertFrom-Json
+$MySQLexe = $Myenv[2].MySQLBin + "mysql.exe"
+$iniFlile = $Myenv[2].MySQLINI
 
-& $MySQLexe --defaults-file=$MyINI_Feng
+& $MySQLexe --defaults-file=$iniFlile
 
 # Write-Host $MySQLexe
 

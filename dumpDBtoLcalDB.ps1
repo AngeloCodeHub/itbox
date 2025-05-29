@@ -1,17 +1,23 @@
 
 # dump（複製）遠端資料庫至本地資料庫
 
-$Myenv = (Get-Content -Path ".\env.json") | ConvertFrom-Json
-$Server = (Get-Content -Path ".\Confidential\MySQLServer.json") | ConvertFrom-Json
+$Myenv = (Get-Content -Path ".\Confidential\env.json") | ConvertFrom-Json
 
-$dump = $Myenv[2].dumpExe
-$DBname = $Server[0].DBname
-$clientEXE = $Myenv[2].MyEXE
-$iniFlile = ".\Confidential\my.ini"
+$dumpEXE = $Myenv[2].MySQLBin + "mysqldump.exe"
+$clientEXE = $Myenv[2].MySQLBin + "mysql.exe"
+$iniFlile = $Myenv[2].MySQLINI
+$DBname = $Myenv[2].DBName
+$tableName = $Myenv[2].tableName
 
-& $dump --defaults-file=$iniFlile $DBname | & $clientEXE --defaults-file=$iniFlile --user root $DBname;
+& $dumpEXE --defaults-file=$iniFlile $DBname $tableName
+
+$DBfile= Get-Content -Path ".\build\member.sql"
+$DBfile | & $clientEXE --defaults-file=$iniFlile;
+
+# 合成
+# & $dumpEXE --defaults-file=$iniFlile $DBname $tableName | & $clientEXE --defaults-file=$iniFlile --user root $DBname;
 
 # write-host $iniFlile
-# write-host $DBname
+# write-host $dumpEXE
 
 
