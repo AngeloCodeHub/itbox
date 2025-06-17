@@ -40,15 +40,16 @@ C槽D槽各一份
   DFS Server
   File Server
   DNS Server
-  WAMP Server
   VSCSI Server
+  NTP Server
+  Active Directory Domain Service（Domain Controller）
+  
+  WAMP Server
   App Server
   PRTG Core Server
-  SSH Server
-  NTP Server
   Backup Server
+  SSH Server
   RDP Server
-  Active Directory Domain Service（Domain Controller）
 
 Server Applications
   Powershell latest
