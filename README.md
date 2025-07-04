@@ -1,63 +1,90 @@
-# 網管IT工具箱（工程版）
+# 網管 IT 工具箱（工程版）
 
-OS Admin：Windows、Linux、RouterOS
-Runtime：Bun、PowerShell、RouterOS
-Language：TypsScript、PowerShell、RSCript
-Package Manager：Bun pm
-Desktop：ElectronJS
-DataBase：SQLite、Json、MySQL、Google Sheet
-Basic Knowledge：ssh2、SFTP、RegEX、TCP/IP、網路概論
-ProjectTools：
-Git、GitHub、WinScp、Putty、node ssh2、openssh、Keepass Save
-VSCODE
+## 支援平台與環境
 
-網管工具的融合與使用與開發
-結合所有遠端連線必要工具與網管知識
-以IT維運人員所作的工具
+- **作業系統管理**：Windows、Linux、RouterOS
+- **執行環境**：Bun、PowerShell、RouterOS
+- **程式語言**：TypeScript、PowerShell、RScript
+- **套件管理**：Bun pm
+- **桌面應用**：ElectronJS
+- **資料庫**：SQLite、JSON、MySQL、Google Sheet
 
-設定檔與備份放在Server本機
-C槽D槽各一份
+## 基礎知識
 
-帳號密碼與資料或店家變數另創建一個json儲存
+- ssh2
+- SFTP
+- RegEx
+- TCP/IP
+- 網路概論
 
-備份項目與策略
-  網路設備
-    RouterOS、Switch、Wifi
-  櫃台程式與資料庫
-  WordPress
-  WAMP server
-    MySQL：DataBase、INI
-    Apache：Conf、憑證
-    PHP：INI
-    phpmyadmin conf
-  Windows server
-    Firewall、SSH
-    排程、維護Script
-  PRTG Server
-  D槽storage檔案
+## 專案工具
 
-伺服器主機角色與功能
-  DFS Server
-  File Server
-  DNS Server
-  VSCSI Server
-  NTP Server
-  Active Directory Domain Service（Domain Controller）
-  
-  WAMP Server
-  App Server
-  PRTG Core Server
-  Backup Server
-  SSH Server
-  RDP Server
+- Git、GitHub
+- WinSCP、Putty
+- node ssh2、OpenSSH
+- Keepass Save
+- VS Code
 
-Server Applications
-  Powershell latest
-  WireShark+NPCap
-  WP-Cli+WordPress
-  Node.JS，Bun
-  Python  
-  Git
-  NSSM
+---
 
-PRTG監控項目
+## 工具箱理念
+
+- 融合與整合各類網管工具，提升遠端連線效率
+- 結合網管知識，協助 IT 維運人員日常作業
+- 所有設定檔與備份皆儲存於 Server 本機（C 槽、D 槽各一份）
+- 帳號密碼及變數資料另建 JSON 檔案獨立儲存
+
+---
+
+## 備份項目與策略
+
+- **網路設備**：RouterOS、Switch、WiFi
+- **櫃台程式與資料庫**
+- **WordPress**
+- **WAMP Server**
+  - MySQL：資料庫、INI
+  - Apache：設定檔、憑證
+  - PHP：INI
+  - phpMyAdmin 設定
+- **Windows Server**
+  - 防火牆、SSH
+  - 排程、維護腳本
+- **PRTG Server**
+- **D 槽 Storage 檔案**
+
+---
+
+## 伺服器主機角色與功能
+
+- DFS Server
+- File Server
+- DNS Server
+- VSCSI Server
+- NTP Server
+- Active Directory Domain Service（Domain Controller）
+- WAMP Server
+- App Server
+- PRTG Core Server
+- Backup Server
+- SSH Server
+- RDP Server
+
+---
+
+## 伺服器應用程式
+
+- PowerShell（最新版）
+- Wireshark + NPCap
+- WP-CLI + WordPress
+- Node.js、Bun
+- Python
+- Git
+- NSSM
+
+---
+
+## PRTG 監控項目
+
+（此處可補充具體監控項目與說明）
+
+---
