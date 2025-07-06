@@ -1,4 +1,7 @@
 {
   "recommendations": [
+  ],
+  "unwantedRecommendations": [
+    "somepublisher.someextension"
   ]
 }

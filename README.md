@@ -1,3 +1,5 @@
+![圖片](https://www.xn--djroe106hl2fyz1bszc.online/wp-content/uploads/2025/07/ChatGPT-Prompt-1.jpg)
+
 # 網管 IT 工具箱（工程版）
 
 ## 支援平台與環境
