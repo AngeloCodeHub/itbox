@@ -61,7 +61,7 @@
 - DFS Server
 - File Server
 - DNS Server
-- VSCSI Server
+- iSCSI Server
 - NTP Server
 - Active Directory Domain Service（Domain Controller）
 - WAMP Server
