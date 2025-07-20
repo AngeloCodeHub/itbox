@@ -4,5 +4,8 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "terminal.integrated.cursorStyle": "underline",
-  // "explorer.excludeGitIgnore": true,
+  "explorer.excludeGitIgnore": true,
+  "cSpell.words": [
+    "WAMP"
+  ],
 }
